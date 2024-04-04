@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+.juego {
+    background-color:rgba(181, 34, 34, 0.678);
+    color: aliceblue;
+    max-width: 350px;
+    max-height: 600px;
+    border-radius: 3%;
+    box-shadow: 0 0 10px 0 rgb(157, 38, 38);
+    padding: 3em;
+    flex: 1;
+    margin: 1em;
+}
+.musica {
+    background-color:rgba(15, 85, 205, 0.678);
+    color: aliceblue;
+    max-width: 350px;
+    max-height: 600px;
+    border-radius: 3%;
+    box-shadow: 0 0 10px 0 rgba(15, 85, 205, 0.678);
+    padding: 3em;
+    display: inline-block;
+    flex: 1;
+    margin: 1em;
+}
+.pasatiempo {
+    background-color:rgba(181, 34, 34, 0.678);
+    color: aliceblue;
+    max-width: 220px;
+    max-height: 150px;
+    border-radius: 3%;
+    box-shadow: 0 0 10px 0 rgb(157, 38, 38);
+    padding: 2em;
+    margin: 1em;
+    display: inline-block;
+    width: 50%;
+}
+body {
+    background-color: darkslateblue;
+}
+a {
+    color: aliceblue;
+}
+a:hover{
+color: burlywood;
+}
+a:active{
+    color: aquamarine;
+}
+.titulo {
+    color: aliceblue;
+}
