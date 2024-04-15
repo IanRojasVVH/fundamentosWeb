@@ -4,7 +4,7 @@
 }
 
 body { /* Seleccion de body */
-    background-color: aquamarine;
+    background-color: #fff; /* Establece el color de fondo */
     font-family: Arial, sans-serif; /* Cambia tipografia */
     margin: 0; /* Elimina todo el margen por defecto */
     padding: 0; /* Elimina todo el relleno de los elementos */
@@ -37,4 +37,37 @@ nav ul li a{
     color: #fff; /* Color a elemento Anchor */
     text-decoration: none; /* Quita el subrayado de enlaces */
 }
-
+section {
+    padding: 40px 0; /* Añade relleno superior e inferior */
+}
+#banner {
+    background-image: url('https://blog.nmviajes.com/wp-content/uploads/2018/10/iStock_000025713973Medium-1500x500.jpg'); /* Establece la imagen de fondo del banner */
+    background-size: cover; /* Ajusta la imagen al area del banner */
+    color: #fff; /* Establece el color del texto */
+    text-align: center; /* Centra el texto del banner */
+    padding: 100px 0; /* Añade relleno superior e inferior */
+}
+#banner h2 {
+    font-size: 36px; /* Establece tamaño de texto */
+}
+#banner p {
+    font-size: 18px; /* Establece tamaño de p */
+    margin-bottom: 20px; /* Establece margen inferior */
+}
+.btn{
+    text-decoration: none; /* Quita el subrayado de enlaces */
+    color: #fff; /* Establece el color del texto */
+    background-color: #007bff; /* Establece el color de fondo del boton */
+    padding: 10px 20px; /* Añade relleno superior e inferior del boton */
+    border-radius: 10%;
+}
+/* Estilo cuando pasa puntero sobre el boton */
+.btn:hover {
+    background-color: #0056b3;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
