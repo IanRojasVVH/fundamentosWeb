@@ -67,8 +67,8 @@ section {
 
 .destinos-container {
     display: flex; /* Ordena horizontalmente los elementos */
-    justify-content: space-between; /* A;ade espacio entre los elementos */
-    flex-wrap: wrap;
+    justify-content: space-between; /* Añade espacio entre los elementos */
+    flex-wrap: wrap; /* Si los elementos no caben en la misma linea agrega una nueva linea con los elementos */
 }
 
 .destinos {
