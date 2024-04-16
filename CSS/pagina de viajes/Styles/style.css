@@ -13,14 +13,13 @@ body { /* Seleccion de body */
 /* Acá viene el estilo de una clase container */
 .container {
     width: 80%; /* Establece el ancho del contenedor en un 80% */
-    margin: 0 auto; /* Centra horizontalmente el contenedor  */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
 }
 /* Estilo de encabezado */
 header {
     background-color: #333; /* Establece el color de fondo */
     color: #fff; /* Establece el color del texto */
-    padding: 20px 0; /* Añade relleno superior e inferior */
-    
+    padding: 10px 0; /* Añade relleno superior e inferior */
 }
 
 header h1 {
@@ -65,9 +64,14 @@ section {
 .btn:hover {
     background-color: #0056b3;
 }
+
+.destinos-container {
+    
+}
+
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    background-color: #333; /* Establece color de fondo de footer */
+    color: #fff; /* Establece color de texto de footer */
+    text-align: center; /* Centra el texto */
+    padding: 20px 0; /* Añade relleno superior e inferior */
 }
