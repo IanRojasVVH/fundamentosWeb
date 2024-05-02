@@ -1,0 +1,42 @@
+* {
+}
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 30px;
+}
+.green {
+    height: 150px;
+    background-color: green;
+    margin-bottom: 20px;
+}
+.blue {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    margin: 20px;
+}
+.red {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    margin: 20px auto;
+    padding: 20px;
+}
+.yellow {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    justify-content: space-between;
+    margin: 15px auto;
+}
+#purple {
+    height: 120px;
+    width: 680px;
+    background-color: purple;
+    margin: 20px auto;
+}
+.row {
+    display: flex;
+}
