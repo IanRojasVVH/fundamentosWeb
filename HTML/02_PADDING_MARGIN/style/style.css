@@ -1,0 +1,30 @@
+.margin {
+    text-align: center;
+}
+.margin-main {
+    background-color: #d15b19;
+    padding: 2em;
+    max-width: 1000px;
+    margin: 15em 40em;
+}
+h2 {
+    text-align: center;
+    font-family: sans-serif;
+}
+.border-main {
+    background-color: #e5a685;
+    padding: 2em;
+    margin: 2em;
+    max-width: 1000px;
+}
+.padding-main {
+    background-color: #459fc7;
+    padding: 1em;
+    max-width: 600px;
+    margin-left: 125px;
+}
+.content-main {
+    background-color: #9fcae0;
+    padding: 3em;
+    margin: 2em;
+}
