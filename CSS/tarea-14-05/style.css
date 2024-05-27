@@ -1,0 +1,43 @@
+.font {
+    font-size: 3em;
+    color: aliceblue;
+    margin: 10px;
+    font-family: cursive;
+}
+.container {
+    background-color: black;
+    padding: 5px;
+}
+.cloud {
+    color: #00BFFF;
+    font-size: 3em;
+}
+.proyectos {
+    background-color: #8A2BE2;
+}
+h1 {
+    display: inline;
+    font-family: cursive;
+}
+.contact-us {
+    background-color: #6495ED;
+}
+h2 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 2em;
+    padding: 5px;
+    font-family: cursive;
+}
+h3 {
+    color: aliceblue;
+    text-align: right;
+    font-family: cursive;
+    font-size: 1.5em;
+}
+.contact {
+    margin: 10px;
+}
+.link {
+    color: black;
+}
