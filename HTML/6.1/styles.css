@@ -222,14 +222,14 @@ button.ingresar {
 }
 
 .menu-section {
-    padding: 20px;
+    padding: 3vh;
     text-align: center;
 }
 
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 15vh;
+    gap: 12vh;
     margin-top: -2vh;
 }
 
@@ -240,7 +240,7 @@ button.ingresar {
 }
 
 .menu-item img {
-    width: 28vh;
+    width: 22vh;
     height: auto;
     margin-bottom: 3vh;
     border-radius: 1vh;
@@ -255,6 +255,119 @@ button.ingresar {
 .menu {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
     margin-left: 3.5vh;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 3vh;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    gap: 7vh;
+}
+
+.footer-section {
+    flex: 0vh;
+    margin: 1vh;
+}
+
+.footer-info p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.footer-contact, .footer-links, .footer-app h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 2vh;
+    color: #000;
+}
+
+.footer-contact p, .footer-links p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.footer-social a {
+    margin-right: 2vh;
+}
+
+.footer-social img {
+    width: 3.5vh; 
+    height: 3.5vh;
+}
+
+.app-buttons img {
+    width: 15vh; 
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 2vh;
+    margin-top: 5vh;
+}
+
+.footer-bottom p {
+    margin: 1vh;
+}
+
+.logo-footer {
+    margin-left: 1vh;
+    margin-bottom: 2vh;
+    height: 6vh;
+}
+
+.kfc-chile {
+    color: #000;
+}
+
+.footer-social {
+    margin-top: 10vh;
+}
+
+.app-buttons{
+    display: flex;
+    gap: 2vh; /* Espacio entre las imágenes */
+    align-items: center;
+}
+
+.apps {
+    margin-left: 18vh;
+}
+
+.footer-links {
+    display: flex;
+    gap: 10vh; /* Ajusta el espacio entre las dos columnas */
+}
+
+.footer-links div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links h4 {
+    font-weight: bold; /* Aplica negrita a los títulos */
+    margin-bottom: 0.5vh; /* Espacio debajo del título */
+    color: #333; /* Cambia el color del texto si es necesario */
+}
+
+.footer-links p {
+    color: #666; /* Cambia el color del texto si es necesario */
+    margin: 0;
+    font-size: 0.9rem; /* Ajusta el tamaño de fuente para el texto debajo */
+}
+
+.footer {
+    margin-top: 12vh;
 }
