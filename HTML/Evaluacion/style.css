@@ -1,83 +1,247 @@
+/* Configuración general */
 * {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif; /* Define la fuente principal para todo */
 }
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina los paddings predeterminados */
 }
 
+/* Encabezado */
 .header {
-    background-color: #fff;
-    padding: 10px 20px;
-    border-bottom: 1px solid #ddd;
+    background-color: #fff; /* Fondo blanco */
+    padding: 10px 20px; /* Espaciado interno del encabezado */
+    border-bottom: 1px solid #ddd; /* Línea inferior del encabezado */
 }
 
+/* Barra de navegación */
 .navbar {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    display: flex; /* Usa un diseño flexible para alinear elementos */
+    justify-content: flex-start; /* Alinea los elementos a la izquierda */
+    align-items: center; /* Centra los elementos verticalmente */
 }
 
 .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 2vh;
-    text-align: start;
-    padding: 0;
-    margin-left: 4vh;
+    list-style: none; /* Elimina los puntos de lista */
+    display: flex; /* Muestra los enlaces en fila */
+    gap: 2vh; /* Espacio entre los enlaces */
+    text-align: start; /* Alinea el texto a la izquierda */
+    padding: 0; /* Elimina el padding */
+    margin-left: 4vh; /* Margen izquierdo para separación */
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: black;
+    text-decoration: none; /* Elimina el subrayado */
+    color: black; /* Color negro del texto */
 }
 
 .nav-links a.active {
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid blue; /* Subraya el enlace activo */
 }
 
-
-
-.mission {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #f9f9f9;
+/* Títulos principales */
+.Title {
+    text-align: center; /* Centra el texto */
+    padding: 5vh 0vh; /* Espaciado interno vertical */
+    justify-content: center; /* Alinea el contenido horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    padding: 5dvh 50dvh; /* Espaciado interno adicional */
+    font-family: "Roboto", sans-serif; /* Fuente específica */
+    font-weight: 400; /* Grosor normal */
 }
 
-.mission h1 {
-    font-size: 1.6rem;
-    margin-left: 40vh;
-    letter-spacing: 1.2px;
-    width: 117vh;
-    align-items: center;
-    font-weight: normal;
-}
-
+/* Clases de colores */
 .blue {
-    color: #4285F4;
+    color: #4285F4; /* Azul */
 }
 
 .green {
-    color: #34A853;
-}
-
-.images-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 15px;
-    padding: 20px;
-}
-
-.images-grid img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+    color: #34A853; /* Verde */
 }
 
 .red {
-    color: #ea4335;
+    color: #ea4335; /* Rojo */
 }
 
 .orange {
-    color: #e37400;
+    color: #e37400; /* Naranja */
+}
+
+/* Imágenes */
+.images-grid {
+    display: flex; /* Diseño flexible */
+    justify-content: center; /* Centra horizontalmente las imágenes */
+    align-items: center; /* Centra verticalmente si es necesario */
+    padding: 20px; /* Espaciado interno */
+}
+
+.images-grid img {
+    max-width: 55%; /* Ajusta el ancho máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Sección de actualizaciones */
+.update-section {
+    text-align: center; /* Centra el texto */
+    margin: 20px 0; /* Margen superior e inferior */
+    font-family: "Roboto", sans-serif; /* Fuente específica */
+    font-size: 16px; /* Tamaño del texto */
+    color: #202124; /* Color del texto */
+}
+
+.update-section a {
+    display: block; /* Hace que los enlaces ocupen toda la línea */
+    margin-top: 10px; /* Margen superior */
+    color: #1a73e8; /* Azul */
+    text-decoration: none; /* Elimina el subrayado */
+    font-weight: bold; /* Texto en negrita */
+    font-family: "Roboto", sans-serif; 
+}
+
+.update-section a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
+
+/* Sección de productos */
+.product-section {
+    text-align: center; /* Centra el texto */
+    margin: 40px 20px; /* Margen externo */
+}
+
+.product-section h2 {
+    font-size: 6vh; /* Tamaño del título */
+    font-weight: 400; /* Grosor normal */
+    color: #202124; /* Color del texto */
+    margin-bottom: 30px; /* Margen inferior */
+    font-family: "Roboto", sans-serif;
+    padding: 5vh 55vh;
+}
+
+.product-section .buttons {
+    display: flex; /* Diseño flexible */
+    justify-content: center; /* Centra los botones */
+    gap: 20px; /* Espaciado entre botones */
+}
+
+/* Botones primarios y secundarios */
+.btn-primary,
+.btn-secondary {
+    text-decoration: none; /* Elimina el subrayado */
+    font-size: 16px; /* Tamaño del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    font-weight: 500; /* Grosor intermedio */
+    transition: background-color 0.3s ease; /* Animación al pasar el cursor */
+}
+
+.btn-primary {
+    background-color: #1a73e8; /* Azul */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+}
+
+.btn-primary:hover {
+    background-color: #1558b0; /* Azul más oscuro al pasar el cursor */
+}
+
+.btn-secondary {
+    background-color: white; /* Fondo blanco */
+    color: #1a73e8; /* Texto azul */
+    border: 1px solid #1a73e8; /* Borde azul */
+}
+
+.btn-secondary:hover {
+    background-color: #f1f3f4; /* Fondo gris claro al pasar el cursor */
+}
+
+/* Responsividad para teléfonos */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Cambia la barra de navegación a formato vertical */
+        align-items: flex-start; /* Alinea los elementos a la izquierda */
+        padding: 10px; /* Espaciado interno */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Enlaces en columna */
+        gap: 10px; /* Espaciado entre enlaces */
+        margin-left: 0; /* Sin margen izquierdo */
+    }
+
+    .nav-links a {
+        padding: 5px 0; /* Espaciado interno vertical */
+        border: none; /* Sin bordes */
+    }
+
+    .mission h1 {
+        font-size: 1.4rem; /* Tamaño reducido */
+        width: 100%; /* Ocupa todo el ancho */
+        padding: 10px; /* Espaciado interno */
+    }
+
+    .images-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Ajusta imágenes en cuadrícula */
+    }
+
+    .product-section h2 {
+        font-size: 1.4rem; /* Tamaño reducido */
+        padding: 0 20px; /* Espaciado interno horizontal */
+    }
+
+    .product-section .buttons {
+        flex-direction: column; /* Botones en columna */
+        gap: 15px; /* Espaciado entre botones */
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 80%; /* Botones más anchos */
+        margin: 0 auto; /* Centra los botones */
+        text-align: center; /* Centra el texto */
+    }
+
+    .update-section {
+        padding: 0 20px; /* Espaciado interno horizontal */
+        font-size: 14px; /* Texto más pequeño */
+    }
+}
+
+/* Responsividad para tablets */
+@media (max-width: 1024px) {
+    .navbar {
+        flex-direction: column; /* Barra de navegación en formato vertical */
+        align-items: flex-start; /* Alinea a la izquierda */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Enlaces en columna */
+        gap: 15px; /* Espaciado entre enlaces */
+        margin-left: 0; /* Sin margen izquierdo */
+    }
+
+    .mission h1 {
+        font-size: 1.6rem; /* Tamaño moderado */
+        width: 95%; /* Ancho casi completo */
+    }
+
+    .product-section .buttons {
+        gap: 20px; /* Espaciado entre botones */
+    }
+}
+
+/* Estilos específicos para PC */
+@media (min-width: 1025px) {
+    .mission h1 {
+        font-size: 2rem; /* Tamaño mayor */
+    }
+
+    .product-section .buttons {
+        gap: 30px; /* Mayor espacio entre botones */
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        font-size: 18px; /* Texto más grande */
+    }
 }
