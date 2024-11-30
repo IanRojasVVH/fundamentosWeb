@@ -31,12 +31,24 @@ body {
 }
 
 .nav-links a {
-    text-decoration: none; /* Elimina el subrayado */
-    color: black; /* Color negro del texto */
+    text-decoration: none; /* Sin subrayado predeterminado */
+    color: black; /* Color del texto */
 }
 
-.nav-links a.active {
-    border-bottom: 2px solid blue; /* Subraya el enlace activo */
+.active {
+    position: relative; /* Necesario para pseudo-elemento */
+}
+
+/* Estilo para la línea azul */
+.nav-links li a::after {
+    content: ''; /* Crear pseudo-elemento */
+    display: block; /* Mostrar como bloque */
+    width: 100%; /* Ancho completo del enlace */
+    height: 2px; /* Grosor de la línea */
+    background-color: blue; /* Color del borde */
+    position: absolute;
+    bottom: -2.7vh; /* Mueve la línea hacia abajo o arriba ajustando este valor */
+    left: 0; /* Alineación horizontal */
 }
 
 /* Títulos principales */
