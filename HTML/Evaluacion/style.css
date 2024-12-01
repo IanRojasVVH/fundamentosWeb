@@ -30,9 +30,18 @@ body {
     margin-left: 4vh; /* Margen izquierdo para separación */
 }
 
+.active {
+    color: blue; /* Estilo para el enlace activo */
+    text-decoration: underline;
+}
+
 .nav-links a {
-    text-decoration: none; /* Sin subrayado predeterminado */
-    color: black; /* Color del texto */
+    text-decoration: none; /* Sin subrayado para los no activos */
+    color: inherit;
+}
+
+.nav-links p {
+    margin: 0;
 }
 
 .active {
@@ -45,7 +54,7 @@ body {
     display: block; /* Mostrar como bloque */
     width: 100%; /* Ancho completo del enlace */
     height: 2px; /* Grosor de la línea */
-    background-color: blue; /* Color del borde */
+    background-color: #1A73E8; /* Color del borde */
     position: absolute;
     bottom: -2.7vh; /* Mueve la línea hacia abajo o arriba ajustando este valor */
     left: 0; /* Alineación horizontal */
@@ -257,3 +266,4 @@ body {
         font-size: 18px; /* Texto más grande */
     }
 }
+
