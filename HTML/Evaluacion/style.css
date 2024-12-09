@@ -30,6 +30,7 @@ body {
 .nav-links a {
     text-decoration: none;
     color: black;
+    margin-left: 3vh;
 }
 
 .nav-links a.active {
