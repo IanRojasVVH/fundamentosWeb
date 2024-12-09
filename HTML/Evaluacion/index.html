@@ -1,35 +1,152 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+    <!-- Configuración básica del documento -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Información - Google</title>
+    <title>Google - Información </title>
+    <!-- Enlace a la hoja de estilos -->
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Google__G__logo.svg.ico" type="image/x-icon">
+    <!-- Fuentes de Google -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+    <!-- Encabezado con la barra de navegación -->
     <header class="header">
         <nav class="navbar">
+            <!-- Logo de Google -->
             <div class="logo"><img src="img/glue-google-color-logo.png" alt="logo-google"></div>
+            <!-- Menú de navegación -->
             <ul class="nav-links">
-                <li><a href="#">Información</a></li>
-                <li><a href="#">Google en España</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Compromisos</a></li>
-                <li><a href="#">Historias</a></li>
+                <li><a href="#" class="active">Información</a></li>
+                <li><p>Google en España</p></li>
+                <li><p>Productos</p></li>
+                <li><p>Compromisos</p></li>
+                <li><p>Historias</p></li>
             </ul>
         </nav>
     </header>
+    <!-- Contenido principal -->
     <main>
-        <section class="mission">
-            <h1>Nuestra misión es <span class="blue">organizar </span>la <span class="red">información</span> del mundo para que <span class="green">todos puedan acceder a ella </span>y <span class="orange">usarla.</span></h1>
-        </section>
+        <!-- Sección de la misión -->
+        <h1 class="Title">
+            Nuestra misión es
+            <span class="blue">organizar </span>
+            la <span class="red">información</span> del mundo para que
+            <span class="green">todos puedan acceder a ella </span>
+            y <span class="orange">usarla.</span>
+        </h1>
+        <!-- Sección de la imagen principal -->
         <section class="images-grid">
             <img src="img/img-main.png" alt="img-main">
         </section>
+        <!-- Sección de actualizaciones -->
+        <section class="update-section">
+            <p>Conoce nuestras últimas actualizaciones en IA, noticias sobre productos y anuncios de la compañía.</p>
+            <a href="#" class="more-info">Más información</a>
+        </section>
+        <!-- Sección de productos -->
+        <section class="product-section">
+            <h2>Hazte la vida más fácil con ayuda de nuestros productos</h2>
+            <div class="buttons">
+                <a href="#" class="btn-primary">Ver todos nuestros productos</a>
+                <a href="#" class="btn-secondary">Obtener asistencia con los productos</a>
+            </div>
+        </section>
+        <!-- Sección de Tarjetas -->
+    <section class="card-section">
+        <div class="card">
+            <img src="img/perro.jpg" alt="Perro con suéter">
+            <h3>Usa la cámara o una imagen para encontrar lo que buscas</h3>
+            <a href="#" class="card-link">Ir a Google Lens</a>
+        </div>
+        <div class="card">
+            <img src="img/persona.jpg" alt="Mujer usando computadora">
+            <h3>Transforma el modo de trabajo colaborativo con Google Workspace</h3>
+            <a href="#" class="card-link">Saber más</a>
+        </div>
+    </section>
+    <section class="mejorar">
+        <h2>Tenemos el compromiso de mejorar las vidas de las personas</h2>
+        <div class="buttons">
+            <a href="#" class="btn-primary">Mira nuestros compromisos</a>
+        </div>
+    </section>
+    <section class="card-section2">
+        <div class="card2">
+            <img src="img/paisaje.jpg" alt="Perro con suéter">
+            <h3>Neutros en carbono desde 2007. Libres de carbono en 2030.</h3>
+            <a href="#" class="card-link">Saber más</a>
+        </div>
+        <div class="card3">
+            <img src="img/persona2.jpg" alt="Mujer usando computadora" >
+            <h3>Te ayudamos a triunfar en el mundo digital con los Certificados Profesionales de Google</h3>
+            <a href="#" class="card-link">Saber más</a>
+        </div>
+    </section>
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Redes sociales -->
+        <div class="footer-section">
+            <h4>Síguenos</h4>
+            <div class="redes">
+                <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="img/youtube.png" alt="YouTube"></a>
+                <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="img/logotipo-de-linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <!-- Más información -->
+        <div class="footer-section">
+            <h4>Más información</h4>
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Relaciones con inversores</a></li>
+                <li><a href="#">Trabaja con nosotros</a></li>
+                <li><a href="#">Oficinas</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Think with Google</a></li>
+                <li><a href="#">Centro de Transparencia</a></li>
+            </ul>
+        </div>
+        <!-- Sala de prensa -->
+        <div class="footer-section">
+            <h4>Sala de prensa</h4>
+            <ul>
+                <li><a href="#">Consultas de prensa</a></li>
+                <li><a href="#">Imágenes y material adicional</a></li>
+                <li><a href="#">Permisos</a></li>
+            </ul>
+        </div>
+        <!-- Política -->
+        <div class="footer-section">
+            <h4>Política</h4>
+            <ul>
+                <li><a href="#">Seguridad para aplicaciones</a></li>
+                <li><a href="#">Principios de software</a></li>
+                <li><a href="#">Política de software no deseado</a></li>
+                <li><a href="#">Cadena de suministro responsable</a></li>
+                <li><a href="#">Personal externo</a></li>
+                <li><a href="#">Política de minerales de conflicto</a></li>
+                <li><a href="#">Normas de la Comunidad</a></li>
+                <li><a href="#">Cómo funciona nuestro negocio</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="borde-gris"></div>
+    <div class="footer-bottom">
+        <p>Google · <a href="#">Ayuda</a> · <a href="#">Privacidad</a> · <a href="#">Condiciones</a></p>
+    </div>
+</footer>
     </main>
 </body>
 </html>
